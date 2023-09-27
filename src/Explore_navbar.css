@@ -1,0 +1,45 @@
+.Explore-nv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px;
+    background-image: linear-gradient(144deg,#f5f0e8, #d3bd9a 50%,#a28f70);
+    width: 100%;
+    z-index: 100;
+}
+.Ex-logo{
+    margin-left: 45px;
+
+}
+.Ex-ul{
+    display: flex;
+    text-decoration: none;
+    box-sizing: content-box;
+    padding-left: 2rem;
+    margin-top: 0px;
+    list-style-type: none;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.Ex-li{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-right: 32px;
+}
+.Ex-a{
+    color: black;
+}
+.Ex-a:hover {
+    background-image: linear-gradient(144deg,#f5f0e8, #d3bd9a 50%,#a28f70);
+}
+.Explore-nv .Ex-ul .Ex-li .Ex-a:hover{
+    background-image: linear-gradient(144deg,#f5f0e8, #d3bd9a 50%,#a28f70); /* Background color on hover */
+    color: white; /* Text color on hover */
+    border: #5a3921 1px solid;/* Border on hover */
+    border-radius: 5px; /* Add rounded corners to the border */
+    padding: 5px 10px; /* Add padding to make it visually appealing */
+    transition:  0.4s ;
+}   

@@ -1,0 +1,345 @@
+.section-ul,.social-link-color {
+    list-style-type: none;
+    margin-right: 80px;
+}
+.section-li{
+    
+    font-size: 20px;
+    display: inline;
+    margin-right: 30px;
+}
+.a-link {
+
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.social-link-color-ul1 {
+    
+    color: #fff;
+}
+.a-link:hover {
+    color: #ff6600;
+}
+.head-1-elem{
+    font-family: monospace;
+    font-weight: bolder;
+}
+.head-2-elem {
+    /* line-height: 4px; */
+    font-size: bolder;
+    
+}
+.contact-banner {
+    background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+    background-size: cover;
+    background-position: inherit;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 190px;
+    /* margin-top: 100px; */
+}
+.contact-banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content {
+    flex: 1;
+    text-align: left;
+    padding: 5px;
+}
+.banner-content h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 70px;
+
+}
+
+.banner-content p {
+    font-size: 20px;
+}
+
+/* ... (your existing CSS) ... */
+
+.timing{
+    margin-top: 50px;
+}
+.container2 {
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding:  20px; /* Add some padding on the sides */
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center;
+}
+.contact-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form-background {
+    background-color: #fff; /* Set your desired background color */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 5px; /* Add rounded corners if desired */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 570px;
+}
+.label-elem {
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65c00;
+}
+
+/* Add this CSS to your existing stylesheet */
+
+.name-field,
+.surname-field {
+    display: inline-block;
+    width: 39%; /* Adjust as needed to control the width of each field */
+    margin-right: 1%; /* Add a small gap between the fields */
+}
+
+.name-field label,
+.surname-field label {
+    width: 50%; /* Adjust as needed to control the width of the labels */
+    display: inline-block;
+    text-align: left;
+    margin-right: -10%; /* Add a small gap between the label and input */
+}
+
+.name-field input,
+.surname-field input {
+    width: 48%; /* Adjust as needed to control the width of the input fields */
+}
+
+
+
+/* Adjust the width of the email input field */
+#email {
+    display: block;
+    width: 80%; /* You can adjust the percentage as needed */
+}
+
+
+
+/* Adjust the width of the message textarea field */
+#message {
+    width: 80%; /* You can adjust the percentage as needed */
+    display: block;
+}
+.footer-box{
+    background-color: #151212;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+    height: 50vh;
+}
+.footer-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto; /* Center the container */
+    padding: 0 20px;
+    height: 300px; /* Adjust the height as needed */
+}
+.footer-section3 {
+    margin-right: 20px;
+}
+.footer-section3 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-section3 ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-section3 ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section3 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.footer-section3 ul li a:hover {
+    color: #ff6600;
+}
+.footer-links3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align the sections */
+}
+.footer-social3 {
+    text-align: left; /* Center-align the social links */
+}
+.footer-social3 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-social3 ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+   
+}
+.footer-social3 ul li {
+    margin-right: 20px; /* Increase the margin */
+    margin-bottom: 20px; /* Add space below the last icon */
+}
+
+.footer-social3 ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-social3 ul li a img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s;
+}
+
+.footer-social3 ul li a:hover img {
+    opacity: 0.7;
+}
+.footer-box p {
+    font-size: 12px;
+    text-align: center;
+}
+.copyright3 {
+    margin-top: -40px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #151212;
+}
+.footer-space3 {
+    line-height: 30px;
+}
+.footer-logo3 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #ff6600;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .footer-links3,
+    .footer-social3,
+    .footer-section3 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .footer-social3 ul {
+        text-align: center;
+    }
+}
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65c00;
+}
+.bot-para{
+line-height: 0.5rem;
+}
