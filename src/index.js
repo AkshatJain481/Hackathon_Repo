@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<App />);
+
+if(window.location.pathname != '/Map/:id' && window.location.pathname != '/Map/restaurants' && window.location.pathname != '/Map/hotels' && window.location.pathname != '/Map/attractions'){
+    const navbar = document.getElementsByClassName('nv');
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+            navbar[0].classList.add("opaque");
+        } else {
+            navbar[0].classList.remove("opaque");
+        }
+    });
+
+}
+ 
